@@ -1,68 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-:root{
-    --primary-color:  rgb(66, 154, 204);
-    --primary-color-dark:  rgb(14, 50, 71);
 
-}
-
-*{
-    box-sizing: border-box;
-    outline: 0;
-}
 
 body{
-    margin: 0;
+    background-color:darkcyan;
     padding: auto;
-    background: var(--primary-color);
+    margin: 0;
     font-family: 'Open sans', sans-serif;
-    font-size: 1.3em;
-    line-height: 1.5em;
 }
 
 .conteiner{
-    max-width: 640px;
+    background-color:aliceblue;
+    width: 50%;
+    max-height: 640px;
     margin: 50px auto;
-    background-color: aliceblue;
     padding: 20px;
-    
-  
-
 }
 
-form input, form label, form button{
+form input, label{
     display: block;
-    width: 100%;
+    width: 96%;
     margin-bottom: 10px;
-
 }
 
 form input{
-    font-size: 24px;
-     height: 50px;
-     padding: 0 20px;
-
-}
-
-form input:focus{
-    outline: 1px solid var(--primary-color);
+    height: 40px;
+    padding-left:20px ;
+    font-size: 14px;
 }
 
 form button{
-    border: none;
-    background: var(--primary-color);
+    width: 100%;
+    height: 40px;
+    background-color: darkcyan;
     color: aliceblue;
-    font-size: 18px ;
-    font-weight: 700;
-    height: 50px;
-    cursor: pointer;
+    border: none;
+    cursor: pointer; 
+    font-size: 20px;
 }
+/* quando passar o mouse em cima */
 
 form button:hover{
-    background: var(--primary-color-dark)
-    ;
+    background-color: darkblue;
 }
 
 .paragrafo-resultado{
-    background: #6de262;
-    padding:  10px 20px;
+    background-color: rgb(160, 233, 121);
+    padding: 10px 20px;
+}
+
+.bad{
+    background-color: rgb(245, 137, 137);
+    padding: 10px 20px;
 }
